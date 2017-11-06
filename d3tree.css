@@ -1,0 +1,36 @@
+ .node {
+     cursor: pointer;
+ }
+ 
+ .node circle {
+     fill: #0d0531;
+     ;
+     stroke: #0d0531;
+     ;
+     stroke-width: 1.5px;
+ }
+ 
+ .node text {
+     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 15px;
+     line-height: 1.42857143;
+     fill: #0d0531;
+ }
+ 
+ .node text.hoverText {
+     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 25px;
+     line-height: 1.42857143;
+     fill: #0d0531;
+     ;
+ }
+ 
+ .link {
+     fill: none;
+     stroke: #0d0531;
+     stroke-width: 1.5px;
+ }
+ 
+ svg {
+     pointer-events: all;
+ }
